@@ -5,63 +5,87 @@ body {
     display: flex;
     flex-direction: column;
   
-  }
+}
 
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+    display: flex;
+}
   
-  li {
-    margin-bottom: 16px;
-  }
+li {
+    margin: 16px;
+}
   
-  a {
+a {
     color: white;
     text-decoration: none;
     font-size: 24px;
-  }
+}
   
   
-  .header {
-    height: 72px;
-    background: darkmagenta;
+.header {
+    background: rgb(21, 27, 41);
     color: white;
     display: flex;
-    align-items: center;
-    padding: 0 16px;
     font-size: 32px;
     font-weight: 900;
-  
-  }
+    border: 5px solid rgb(0, 255, 221);
+    justify-content: space-between;
+}
 
-  .body {
+.right-links {
+   border: 0px solid red;
+   padding: 16px;
+   display: flex;
+}
+
+.logo {
+    border: 0px solid rgb(238, 255, 0);
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 70px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.body {
     flex: 1;
     display: flex;
-  }
+    justify-content: space-between;
+}
+
+.about-text {
+
+}
+
+.about-image {
+
+}
   
   
-  .footer {
+.footer {
     height: 72px;
-    background: #eee;
-    color: darkmagenta;
+    background: rgb(21, 27, 41);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
   
-  }
+}
   
-  .sidebar {
+.sidebar {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
     flex-shrink: 0;
     padding: 16px;
   
-  }
+}
   
-  .card {
+.card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
@@ -69,10 +93,10 @@ body {
     margin: 16px;
     width: 300px;
   
-  }
+}
 
-  .container {
+.container {
     padding: 32px;
     display: flex;
     flex-wrap: wrap;
-  }
+}
